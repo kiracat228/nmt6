@@ -1,0 +1,151 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f6;
+}
+.main-header {
+  background-color: #e0d4f7;
+  padding: 1rem;
+  text-align: center;
+}
+.logo-big {
+  height: 100px;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4a0072;
+}
+nav a.active {
+  color: #9c27b0;
+}
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+.hero.pink {
+  background-color: #ffe6f0;
+}
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.course-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 280px;
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.3s;
+}
+.course-card:hover {
+  transform: scale(1.05) rotate(1deg);
+}
+.course-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #6a1b9a;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+.btn:hover {
+  transform: rotate(-3deg);
+}
+.footer {
+  margin-top: 3rem;
+  background-color: #8e44ad;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.footer a {
+  color: white;
+  font-weight: bold;
+}
+.bonuses h2{
+  color: #000000;
+  text-align: center;
+}
+
+.advantages {
+  padding: 2rem;
+  background-color: #f8e8ff;
+  text-align: center;
+}
+.advantages h2 {
+  font-size: 2rem;
+  color: #6a1b9a;
+}
+.adv-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.adv-item {
+  background-color: #f3d9ff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+  font-weight: bold;
+}
+.about h2{
+   font-size: 2rem;
+  color: #000000;
+  text-align: center;
+}
+.about p{
+   text-align: center;
+    
+}
+.reviews-slider {
+  padding: 2rem;
+  background-color: #fce4ec;
+  text-align: center;
+}
+.reviews-slider h2 {
+  font-size: 2rem;
+  color: #c2185b;
+}
+
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.slide {
+  min-width: 250px;
+  background: white;
+  border-radius: 10px;
+  scroll-snap-align: start;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.course-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
